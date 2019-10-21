@@ -1,0 +1,37 @@
+h3{
+    font-size: 1.5rem;
+    color: #049DD9;
+}
+
+a {
+    color: #049DD9;
+}
+
+.btn {
+    margin: 2px 0px 2px 0px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #747474;
+    border-color: #747474;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #0087ff;
+    border-color: #0087ff;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #00d3ff;
+    border-color: #00d3ff;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+

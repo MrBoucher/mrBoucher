@@ -1,0 +1,140 @@
+
+
+.head{
+    background-image: url("../img/prog-05.jpg");
+    align-content: left;
+    padding-top: 15%;
+}
+
+.box-01{
+    background-color: #ECD803b9;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+.box-02{
+    background-color: #4CFF3790;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+h1{
+    font-family: 'Khand', sans-serif;
+    font-size: 4rem;
+
+}
+
+h2{
+    font-family: 'Khand', sans-serif;
+    font-size: 3rem;
+
+}
+
+h3{
+    font-family: 'Khand', sans-serif;
+    font-size: 2rem;
+
+}
+
+
+.sec-02{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.parallax {
+    background-image: url("img_parallax.jpg");
+
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec-03{
+    background-image: url(../img/prog-02.jpg);
+    background-position: center;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    color: white;
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.75);
+    font-family: 'Khand', sans-serif;
+    font-size: 1.25rem;
+}
+
+
+.sec-04{
+    background-image: url(../img/prog-04.jpg);
+    align-content: center;
+    padding-left: 5%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    color: white;
+}
+
+
+
+#bgbox{
+    background-color: #ffffffb9;
+    padding-left: 5%;
+}
+
+.bg-primary {
+    background-color: #000000 !important;
+}
+
+.sec-05-01{
+    background-color: #33b573;
+    padding: 5%;
+}
+
+.sec-05-02{
+    background-color: #c9bc85;
+    padding: 5%;
+}
+
+.sec-05-03{
+    background-color: #1ea1bd;
+    padding: 5%;
+
+}
+
+#arrow {
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+    width:10px;
+    height:10px;
+    transform: rotate(-45deg);
+    margin-top:40px;
+}
+
+
+
+ul li {
+    position: relative;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li:before{
+    content: '';
+    position: absolute;
+    border-right: 2px solid #02b628;
+    border-bottom: 2px solid black;
+    width:10px;
+    height:10px;
+    top: calc(50% - 4px);
+    left: -20px;
+    transform: translateY(-50%) rotate(-45deg);
+}
+
+
+

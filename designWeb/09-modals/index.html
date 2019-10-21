@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+
+<div class="container-fluid " id="header">
+
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/moto-01.jpg" width="1920px">
+            </div>
+            <div class="carousel-item" >
+                <img src="img/moto-02.jpg" width="1920px">
+            </div>
+            <div class="carousel-item">
+                <img src="img/moto-03.jpg" width="1920px">
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+
+</div>
+
+
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" >
+    Ouvrir le modal
+</button>
+
+
+
+
+<div class="modal" tabindex="-1" role="dialog" id="exampleModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                <div class="jumbotron">
+                    <h1 class="display-4">Hello MotoWorld !</h1>
+                    <p class="lead">Ne perdez pas la chance de cette offre exclusive. Acheter un billet à moitié prix et obtenez en un autre, cette offre prendra fin le 31 Octobore 2019</p>
+                    <hr class="my-4">
+                    <p>Vous pouvez bénéficié de cette offre en cliquant sur cette offre.</p>
+                    <p class="lead">
+                        <a class="btn btn-primary btn-lg" href="#" role="button">Acheter</a>
+                    </p>
+                </div>
+
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+
+</body>
+</html>
