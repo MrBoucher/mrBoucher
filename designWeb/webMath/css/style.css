@@ -199,7 +199,7 @@ a:hover {
 }
 
 #sec-01{
-    padding: 5% 15% 5% 15%;
+    padding: 10% 15% 5% 15%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -218,7 +218,7 @@ section .section-title{
 }
 
 #sec-01 .card{
-    padding: 2rem!important;
+    padding: 1rem!important;
     border: none;
     margin-bottom:1rem;
     -webkit-transition: .5s all ease;
