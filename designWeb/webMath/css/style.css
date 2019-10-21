@@ -69,6 +69,19 @@ body{
         font-size: 1rem;
     }
 
+    #sec-01{
+        padding: 10% 0% 5% 0%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .card h3{
+        color: #FF3988;
+        font-size: 1.25rem;
+    }
+
 
 
 }
@@ -114,6 +127,19 @@ body{
 
     .carousel-caption p {
         font-size: 1.5rem;
+    }
+
+    #sec-01{
+        padding: 10% 10% 5% 10%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .card h3{
+        color: #FF3988;
+        font-size: 1.75rem;
     }
 
 }
@@ -193,18 +219,9 @@ a:hover {
 
 
 /*Services*/
-.card h3{
-    color: #FF3988;
-    font-size: 1.75rem;
-}
 
-#sec-01{
-    padding: 10% 5% 5% 5%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
+
 
 .sec-01-div{
     padding-bottom: 15px;
@@ -410,6 +427,13 @@ section .section-title{
 
 .jumbotron {
     margin: 20% 15%;
+    background-color: #ffffffe6;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+.jumbotron-form {
     background-color: #ffffffe6;
     -webkit-border-radius: 20px 20px 20px 20px;
     border-radius: 20px 20px 20px 20px;
