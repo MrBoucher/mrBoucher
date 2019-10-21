@@ -142,6 +142,7 @@ body{
         font-size: 1.75rem;
     }
 
+
 }
 
 a{
@@ -210,27 +211,23 @@ a:hover {
 
 .carousel-indicators li{
     background-color: #5E2CD2;
+    margin-bottom: 5%;
+
 }
 
 .carou-02 h2{
     color: #fff;
 }
 
-
-
 /*Services*/
 
 
 
 
-.sec-01-div{
-    padding-bottom: 15px;
-}
-
 section .section-title{
     text-align:center;
     color:#FF3988;
-    margin-bottom:50px;
+    margin-bottom:200px;
     text-transform:uppercase;
 }
 
@@ -312,6 +309,8 @@ section .section-title{
     background-size: cover;
 
 }
+
+
 
 .sec-05{
     padding: 20% 5%;
