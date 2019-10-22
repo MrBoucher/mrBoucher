@@ -529,9 +529,7 @@ section .section-title{
 
 }
 
-.modal-body{
-    padding: 3rem;
-}
+
 
 #grad {
     background-image: linear-gradient(to right, #5E2CD2 , #FF3485);
@@ -791,6 +789,10 @@ section .section-title{
 .slide-gut{
     margin-left: -15px;
     margin-right: -30px;
+}
+
+.modal.and.carousel {
+    position: fixed;
 }
 
 
