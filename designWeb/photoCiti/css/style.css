@@ -20,6 +20,9 @@ h1{
 #cadre{
     padding: 3% 2%;
     margin: 20px 20px 20px 20px;
+}
+
+.background{
     background: url("../img/background/noir.jpg");
 }
 

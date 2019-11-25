@@ -1,16 +1,9 @@
 
 //Change Back-Ground
-/*$(function() {
-    $('ul.menu').find('img').fadeTo('slow', 1);
-    $('ul.menu').find('img').hover(function () {
-        $(this).fadeTo('fast', 0.7);
-        $('#cadre').css({
-            'background-image': 'url(' + $(this).attr('src') + ')',
-        }, function () {
-            $(this).fadeTo('slow', 1);
-        });
-    });*/
-
+$('.couleur').click(function () {
+    var couleur = $(this).attr("id");
+    $('.background').css("background-image", 'url("img/background/' + couleur + '.jpg")');
+});
 
     var mots;
     var col = 4;
