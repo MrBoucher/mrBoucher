@@ -10,6 +10,7 @@ $('.couleur').click(function () {
     var i = 0;
     var doIt = 0;
 
+//Input letters image
 
     $('#myInput').keyup(function () {
         mots = $("#myInput").val();
@@ -28,7 +29,7 @@ $('.couleur').click(function () {
         }
     }
 
-    $("#btn").click(motsLength());
+    $("#btn").click(motsLength);
 
     function motsLength() {
         mots = $("#myInput").val();
@@ -54,13 +55,14 @@ $('.couleur').click(function () {
                 alert("Mots trop long!")
 */
             }
-
-            if (col > 0) {
-                for (var i = 0; i < mots.length; i++) {
-                    $("#cadre").append("<img src=\"img/Letters/" + mots[i].toUpperCase() + "/" + mots[i].toUpperCase() + "1.jpg\" class=\"img-fluid col-" + col + "\" alt=\"\" id=\"img" + "\">\n");
-                }
+                if (col > 0) {
+                    for (var i = 0; i < mots.length; i++) {
+                        $('.imgs').append("<img value='" + word[i].toUpperCase() + "'  src=\"img/Letters/" + word[i].toUpperCase() + "/" + word[i].toUpperCase() + "1.jpg\" class=\"img-fluid col-" + col + "\" id=\"img" + i + "\">\n");
+                    }
                 doIt++;
-            }
+            } else {
+                    /*alert("Mot invalide");*/
+                }
         }
     }
 
