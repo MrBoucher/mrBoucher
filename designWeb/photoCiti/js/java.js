@@ -57,7 +57,7 @@ $('.couleur').click(function () {
             }
                 if (col > 0) {
                     for (var i = 0; i < mots.length; i++) {
-                        $('.imgs').append("<img value='" + word[i].toUpperCase() + "'  src=\"img/Letters/" + word[i].toUpperCase() + "/" + word[i].toUpperCase() + "1.jpg\" class=\"img-fluid col-" + col + "\" id=\"img" + i + "\">\n");
+                        $('#imgs').append("<img value='" + word[i].toUpperCase() + "'  src=\"img/Letters/" + word[i].toUpperCase() + "/" + word[i].toUpperCase() + "1.jpg\" class=\"img-fluid col-" + col + "\" id=\"img" + i + "\">\n");
                     }
                 doIt++;
             } else {
@@ -65,6 +65,15 @@ $('.couleur').click(function () {
                 }
         }
     }
+
+$('.lettre').click(function () {
+    nb = $(this).attr('id');
+    car = mot[nb - 1].toUpperCase();
+    for (var i = 1; i <= 5; i++) {
+        $('#car' + i).attr("src", "Letters/" + car + "/" + car + i + ".jpg");
+    }
+    $('#choix2').modal('show');
+});
 
 
 

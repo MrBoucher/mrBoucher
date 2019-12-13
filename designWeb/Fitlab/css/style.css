@@ -1,0 +1,282 @@
+html, body {
+    height:100%;
+    margin:0;
+    padding:0;
+}
+body{
+    overflow-x: hidden;
+}
+
+/*-------------------------------------------  Font  -------------------------------------------------------------*/
+
+
+@font-face {
+    font-family: 'bad-grundge';
+    src: url("../fonts/BAD GRUNGE_0.ttf");
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url("../fonts/Raleway-Regular_0.ttf");
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Futura Condensed Extra Bold';
+    src: url("../fonts/Futura Condensed Extra Bold.otf");
+    font-style: normal;
+    font-weight: 100;
+}
+
+h1{
+    font-family: bad-grundge;
+    color: white;
+    font-size: 10rem;
+}
+
+h2{
+    font-family: "Futura Condensed Extra Bold";
+    background: linear-gradient(to right, #E96F01 0%, #FFC200 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 10rem;
+}
+
+h3{
+    font-family: "Futura Condensed Extra Bold";
+    font-size: 3rem;
+}
+
+p{
+    font-family: raleway;
+    font-size: 1.5rem;
+}
+
+
+/*-------------------------------------------  mediaQuery  -------------------------------------------------------------*/
+
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+
+   /* h1{
+        font-size: 10rem;
+    }
+
+
+    h2{
+        font-size: 10rem;
+    }
+
+    h3{
+        font-size: 3rem;
+    }
+
+    p{
+        font-size: 1.5rem;
+    }*/
+
+}
+
+
+/* Tablets, Ipads (landscape) ----------- */
+@media (min-width: 768px) {
+
+}
+
+
+/* Smartphone ----------- */
+@media (min-width:320px)  {
+
+}
+
+/*-------------------------------------------  Navbar  -------------------------------------------------------------*/
+
+
+.bg-light {
+    background-color: #ffffff00 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+    color: #E96F01;
+}
+
+.nav-link {
+    font-family: "raleway";
+    font-size: 1.5rem;
+}
+
+.nav-item:hover {
+    color: #F7A600 !important;
+}
+
+
+
+/*-------------------------------------------  CSS3  -------------------------------------------------------------*/
+
+
+
+.head-slider{
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/fitlab-slider-01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+}
+
+.sec-01{
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.sec-02{
+    height: 80%;
+    background-image: url("../img/fitlab-sec-02.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sec-03{
+    height: 80%;
+    width: 100%;
+    background-image: url("../img/fitlab-sec-03.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sec-04{
+    background-image: url("../img/fitlab-sec-03.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.title-margin{
+    margin: 5% 0%;
+}
+
+.space-t{
+    padding: 5% 0% 0% 0%;
+}
+
+.space-b{
+    padding: 0% 0% 5% 0%;
+}
+
+
+/*-------------------------------------------  Button  -------------------------------------------------------------*/
+
+
+.btn-primary
+{
+    background-image: linear-gradient(to right, #E96F01 , #FFC200);
+    border: none;
+}
+
+.btn {
+    font-family: "raleway";
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 1;
+    transition: all 0.2s;
+}
+
+.btn-lg{
+    line-height: 0.5;
+}
+
+/*-------------------------------------------  Pricing Card  -------------------------------------------------------------*/
+
+
+section.pricing {
+}
+
+.pricing .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+    margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 2.5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+}
+
+.pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.pricing .card-price .period {
+    font-size: 0.8rem;
+}
+
+.pricing ul li {
+    margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+    opacity: 0.7;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+    .pricing .card:hover {
+        margin-top: -.25rem;
+        margin-bottom: .25rem;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+
+}
+
+/*-------------------------------------------  Fontawsome  -------------------------------------------------------------*/
+
+i {
+    color: #E96F01;
+}
+
+/*-------------------------------------------  Form  -------------------------------------------------------------*/
+
+
+.form-control:focus {
+    border-color: #E96F01;
+    box-shadow: inset 0 1px 1px #E96F0133, 0 0 8px #E96F0133;
+}
+
+.form-control {
+    font-size: 1rem;
+    color: #495057;
+    background-color: #F4F4F4;
+    border: 0px solid #ced4da00;
+    border-radius: 1rem;
+}
+
+
+/*-------------------------------------------  footer  -------------------------------------------------------------*/
+
+.foot{
+    height: 20%;
+    background-color: black;
+}

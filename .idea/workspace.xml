@@ -19,8 +19,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="SCSS File" />
+        <option value="CSS File" />
+        <option value="Sass File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -32,8 +35,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/designWeb/photoCiti" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/programamation1/Exam/ExamenFinal/js" />
+    <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -45,18 +48,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\HP\Github\mrBoucher\designWeb\photoCiti" />
-      <recent name="C:\Users\HP\Github\mrBoucher\designWeb\photoCiti\js" />
-      <recent name="C:\Users\HP\Github\mrBoucher\designWeb" />
-      <recent name="C:\Users\HP\Github\mrBoucher\programamation1\exercise\let\js" />
-      <recent name="C:\Users\HP\Github\mrBoucher\programamation1\exercise" />
+      <recent name="C:\Users\HP\Github\mrBoucher\programamation1\Exam\ExamenFinal\js" />
+      <recent name="C:\Users\HP\Github\mrBoucher\programamation1\Exam" />
+      <recent name="C:\Users\HP\Github\mrBoucher\programamation1\rev\for\js" />
+      <recent name="C:\Users\HP\Github\mrBoucher\programamation1\rev" />
+      <recent name="C:\Users\HP\Github\mrBoucher\programamation1\rev\while\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Github\mrBoucher\designWeb\Library\img" />
       <recent name="C:\Users\HP\Github\mrBoucher\programamation1\exercise\let\js" />
-      <recent name="C:\Users\HP\Github\mrBoucher\designWeb\photoCiti\img\background" />
-      <recent name="C:\Users\HP\Github\mrBoucher\designWeb\photoCiti\img" />
-      <recent name="C:\Users\HP\Github\mrBoucher\programamation1\exercise\array\js" />
-      <recent name="C:\Users\HP\Github\mrBoucher\designWeb" />
+      <recent name="C:\Users\HP\Github\mrBoucher\designWeb\sass\css" />
+      <recent name="C:\Users\HP\Github\mrBoucher\formation\udemy-html\siteweb" />
+      <recent name="C:\Users\HP\Github\mrBoucher\formation\udemy-html\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -166,7 +169,30 @@
       <workItem from="1574653012507" duration="2209000" />
       <workItem from="1574687794758" duration="5938000" />
       <workItem from="1574695202024" duration="1722000" />
-      <workItem from="1574712106861" duration="3599000" />
+      <workItem from="1574712106861" duration="4966000" />
+      <workItem from="1574717689030" duration="3825000" />
+      <workItem from="1574722615261" duration="2127000" />
+      <workItem from="1574783995854" duration="3695000" />
+      <workItem from="1574792577401" duration="372000" />
+      <workItem from="1574794084040" duration="4232000" />
+      <workItem from="1574801043206" duration="216000" />
+      <workItem from="1574866724408" duration="4198000" />
+      <workItem from="1574878595563" duration="1994000" />
+      <workItem from="1574880847367" duration="4035000" />
+      <workItem from="1574946234535" duration="5508000" />
+      <workItem from="1574961799534" duration="1828000" />
+      <workItem from="1574964815375" duration="5596000" />
+      <workItem from="1575477092918" duration="115000" />
+      <workItem from="1575484460581" duration="583000" />
+      <workItem from="1575506166181" duration="1174000" />
+      <workItem from="1575551366298" duration="6433000" />
+      <workItem from="1575560507958" duration="4080000" />
+      <workItem from="1575567873576" duration="7271000" />
+      <workItem from="1575989248574" duration="128000" />
+      <workItem from="1576000968076" duration="1019000" />
+      <workItem from="1576002958886" duration="1477000" />
+      <workItem from="1576077400291" duration="921000" />
+      <workItem from="1576089954955" duration="1807000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,25 @@
+html,body { margin:0; height:100%;}
+
+.logo-head{
+    margin: 15% 0;
+}
+
+.bod{
+
+    height: 100%;
+    background-image: url("../img/abstract-parallax-01.png");
+}
+.bod1{
+
+    height: 100%;
+}
+
+.bod2{
+
+    height: 100%;
+    background-image: url("../img/abstract-bc-02.png");
+}
+
+.col-3{
+
+}

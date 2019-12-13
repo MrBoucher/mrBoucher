@@ -1,25 +1,43 @@
-//Les tableaux sont uttilisés pour sauvegarder plusieurs variables dans une seule variable.
+var joueursBasket = ["Michael Jordan", "Kobe Bryan", "LeBron James","Kody Nana","James Wood"];
 
-//Un tableau est une variable spéciale qui peut contenir plus d'un élément à la fois.
+/*----------------------------------------------*/
+/*Change la valeur du tableau "Precis"*/
 
-// Par exemple une liste de tous les pokémons. Il faudrait plus de 150 variables pour stocker la
-// première génération de Pokémons.
+//joueursBasket[0] = "Larry Bird";
 
-// Donc, en uttilisant un tableau, on peut uttiliser directement les éléments qui s'y trouveront.
+/*----------------------------------------------*/
+/*Affiche le la longueur du tableau joueursBasket*/
 
-//Exemple :
+// alert(joueursBasket.length);
 
-var pokemons = ["Pikachu", "Salamèche", "Bulbizar"];
+/*----------------------------------------------*/
+/*Affiche le premier element du tableau*/
 
-document.write(pokemons);
+//alert(joueursBasket[0]);
 
+/*----------------------------------------------*/
+/*Affiche le dernier element du tableau*/
+
+//alert(joueursBasket[joueursBasket.length-1]);
+
+/*----------------------------------------------*/
+/*Ajouter un element au tableau*/
+
+// joueursBasket.push("Lime");
 //Ou
+// joueursBasket[joueursBasket.length]="Lime";
 
+/*----------------------------------------------*/
+/*Pour savoir si c'est tableau*/
 
-var car = new Array("Saab", "Volovo","Bmw");
+// typeof joueursBasket;
+//Ou
+//Array.isArray(joueursBasket);
 
-document.write(car);
+/*----------------------------------------------*/
+/*Affiche tous les elements d'un tableau*/
 
-
+/*for(var i =0; i<joueursBasket.length; i++){
+    document.write(joueursBasket[i] + "<br>")*/
 
 

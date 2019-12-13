@@ -1,0 +1,9 @@
+
+.in-head-slider{
+    height: 60%;
+    width: 100%;
+    background-image: url("../img/inscription-head-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
