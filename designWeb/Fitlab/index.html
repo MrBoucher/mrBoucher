@@ -7,21 +7,22 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/3ce5bca1a5.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" href="img/abstract-flavicon.png">
+    <link rel="icon" href="img/fitlab-flav.png">
+    <link rel="stylesheet" href="css/animate.min.css">
 </head>
 
 <body>
 
 <header class="container-fluid head-slider">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><img src="img/fitlab-logo.svg" width="250" height="50" class="d-inline-block align-top" alt=""></a>
+        <a class="navbar-brand animated swing" href="#"><img src="img/fitlab-logo.svg" width="250" height="50" class="d-inline-block align-top" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-hamburger"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
                 <a class="nav-item nav-link active" href="index.html">Accueil<span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href=entraineur.html#">Entraineur</a>
+                <a class="nav-item nav-link" href="entraineur.html">Entraineur</a>
                 <a class="nav-item nav-link" href="exercise.html">Exercise</a>
                 <a class="nav-item nav-link" href="inscription.html">Inscription</a>
                 <a class="nav-item nav-link" href="contact.html">Contact</a>
@@ -29,11 +30,12 @@
             </div>
         </div>
     </nav>
+
 </header>
 
 <section class="container sec-01">
     <div class="row">
-        <div class="col-7">
+        <div class="col-12">
             <h3>Pousse tes limites</h3>
             <p>Notre équipe sera en mesure de capter tes besoins et tes objectifs, tout en
                 respectant tes limites et tes disponibilités. Nos entraineurs soigneusement
@@ -44,8 +46,8 @@
     </div>
 </section>
 
-<section class="container-fluid sec-02 text-center">
-    <div class="row">
+<section class="container-fluid sec-02 ">
+    <div class="row space-t">
         <div class="jumbotron">
             <h3>Entraineur Recherché.</h3>
             <p>Ta passion se passe au Gym? Tu es sans doute la perle rare que nous cherchons!</p>
@@ -59,13 +61,40 @@
 </section>
 
 
-
 <section class=" sec-04 pricing py-5">
     <div class="container">
         <div class="row">
+            <div class="row space-t">
         <div class="col-12 text-center">
-            <h2 class="title-margin">Nos Forfaits.</h2>
+            <h2 class="title-margin">Nos Forfaits</h2>
         </div>
+
+        <div class="col-12 space-b text-center">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <h3>Nouvelle Résolution pour 2020!</h3>
+                        <p>Proftier de notre promotion du temps des fêtes, vous disposez d'un essai gratuit afin de voir si le gym connivent a vos besoins.</p>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#exampleModal">Promotion</button>
+                    </div>
+                    <div class="carousel-item">
+                        <h3>Recommandez 5 amis</h3>
+                        <p>Si vous recommandez 5 amis, vous bénificerez<br> d'un abonnement FitExpert gratuitement.</p>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        </div>
+
+
     </div>
         <div class="row">
             <!-- Free Tier -->
@@ -83,7 +112,7 @@
                             <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Accès à tous les Fitlab</li>
                             <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Partage de la carte de membre</li>
                         </ul>
-                        <a href="#" class="btn btn-block btn-primary text-uppercase">Inscription</a>
+                        <a href="inscription.html" class="btn btn-block btn-primary">Inscription</a>
                     </div>
                 </div>
             </div>
@@ -102,7 +131,7 @@
                             <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Accès à tous les Fitlab</li>
                             <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Partage de la carte de membre</li>
                         </ul>
-                        <a href="#" class="btn btn-block btn-primary text-uppercase">Inscription</a>
+                        <a href="inscription.html" class="btn btn-block btn-primary">Inscription</a>
                     </div>
                 </div>
             </div>
@@ -121,7 +150,7 @@
                             <li><span class="fa-li"><i class="fas fa-check"></i></span>Accès à tous les Fitlab</li>
                             <li><span class="fa-li"><i class="fas fa-check"></i></span>Partage de la carte de membre</li>
                         </ul>
-                        <a href="#" class="btn btn-block btn-primary text-uppercase">Inscription</a>
+                        <a href="inscription.html" class="btn btn-block btn-primary">Inscription</a>
                     </div>
                 </div>
             </div>
@@ -133,8 +162,37 @@
 
 
 
-<footer class="foot">
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Promotion des fêtes 2020</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Profiter d'une réduction de 15% sur votre abonnement annuel chez FitLab. Pour un temps limité!
+                    <br>
+                    <b>Utiliser le code promos : Fitlabpower</b>
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<footer class="foot">
+    <br>
+<p class="" style="color: white">©Fitlab 2019</p>
 </footer>
 
 

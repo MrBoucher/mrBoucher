@@ -62,22 +62,13 @@ p{
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1224px) {
 
-   /* h1{
-        font-size: 10rem;
-    }
+
 
 
     h2{
         font-size: 10rem;
     }
 
-    h3{
-        font-size: 3rem;
-    }
-
-    p{
-        font-size: 1.5rem;
-    }*/
 
 }
 
@@ -85,11 +76,20 @@ p{
 /* Tablets, Ipads (landscape) ----------- */
 @media (min-width: 768px) {
 
+    h2{
+        font-size: 5rem;
+    }
+
+
 }
 
 
 /* Smartphone ----------- */
 @media (min-width:320px)  {
+
+    h2{
+        font-size: 4rem;
+    }
 
 }
 
@@ -121,7 +121,10 @@ p{
 
 /*-------------------------------------------  CSS3  -------------------------------------------------------------*/
 
-
+.jumbotron {
+    border-radius: 0rem;
+    background-color: white;
+}
 
 .head-slider{
     height: 100%;
@@ -144,6 +147,7 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .sec-03{
@@ -194,6 +198,13 @@ p{
     opacity: 1;
     transition: all 0.2s;
 }
+
+.btn:hover{
+-webkit-transform:rotate(10deg);
+    transform:rotate(10deg)}
+}
+
+
 
 .btn-lg{
     line-height: 0.5;
@@ -277,6 +288,6 @@ i {
 /*-------------------------------------------  footer  -------------------------------------------------------------*/
 
 .foot{
-    height: 20%;
+    height: 75px;
     background-color: black;
 }
