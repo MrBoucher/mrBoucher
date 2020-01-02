@@ -47,19 +47,19 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\HP\Github\mrBoucher\designWeb\Library\img" />
-      <recent name="C:\Users\HP\Github\mrBoucher\programamation1\exercise\let\js" />
-      <recent name="C:\Users\HP\Github\mrBoucher\designWeb\sass\css" />
-      <recent name="C:\Users\HP\Github\mrBoucher\formation\udemy-html\siteweb" />
-      <recent name="C:\Users\HP\Github\mrBoucher\formation\udemy-html\img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\HP\Github\mrBoucher\designWeb\Fitlab\css" />
       <recent name="C:\Users\HP\Github\mrBoucher\programamation1\Exam\ExamenFinal\js" />
       <recent name="C:\Users\HP\Github\mrBoucher\programamation1\Exam" />
       <recent name="C:\Users\HP\Github\mrBoucher\programamation1\rev\for\js" />
       <recent name="C:\Users\HP\Github\mrBoucher\programamation1\rev" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Github\mrBoucher\designWeb\Library\img" />
+      <recent name="C:\Users\HP\Github\mrBoucher\programamation1\exercise\let\js" />
+      <recent name="C:\Users\HP\Github\mrBoucher\designWeb\sass\css" />
+      <recent name="C:\Users\HP\Github\mrBoucher\formation\udemy-html\siteweb" />
+      <recent name="C:\Users\HP\Github\mrBoucher\formation\udemy-html\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -196,6 +196,7 @@
       <workItem from="1576356799631" duration="359000" />
       <workItem from="1576423314827" duration="1052000" />
       <workItem from="1576433239806" duration="12119000" />
+      <workItem from="1576451022895" duration="999000" />
     </task>
     <servers />
   </component>
